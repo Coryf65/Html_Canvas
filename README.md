@@ -3,6 +3,10 @@ Follow along on [LinkedIn](https://www.linkedin.com/learning/learning-html-canva
 # Html_Canvas
 Leanrning more about using the HTML Canvas Element and using JS to control it
 
+## Docs
+
+See all the info here at the Mozilla Docs for [CanvasAPI](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+
 ## What can it do ?
 
 - Provides a space for program-controlled drawing
