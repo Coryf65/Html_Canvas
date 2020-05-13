@@ -33,3 +33,7 @@ Attribute  | Value  | Description
 ---------- | ------ | --------
 height | pixels | Specifies the height of the canvas. Default value is 150
 width | pixels | Specifies the width of the canvas Default value is 300
+
+## Canvas Drawing Context
+
+![Canvas Elements Drawing Context](/img/CanvasContext.PNG)
