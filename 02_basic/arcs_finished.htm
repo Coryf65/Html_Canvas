@@ -14,26 +14,16 @@
 				if (theCanvas && theCanvas.getContext) {
 					var ctx = theCanvas.getContext("2d");
 					if (ctx) {
-						// Set up some drawing context settings
+						// TODO: Set up some drawing context settings
 						ctx.strokeStyle = "blue";
 						ctx.fillStyle = "red";
 						ctx.lineWidth = 5;
 
-						// stroke a quarter arc
-						ctx.beginPath();
-						ctx.arc(50, 150, 100, 0, 0.5 * Math.PI);
-						ctx.stroke();
+						// TODO: stroke a quarter arc
 
-						// stroke a half arc, going anti-clockwise
-						ctx.beginPath();
-						ctx.arc(300, 150, 100, 0, Math.PI, true);
-						ctx.stroke();
+						// TODO: stroke a half arc, going anti-clockwise
 
-						// stroke and fill a circle
-						ctx.beginPath();
-						ctx.arc(550, 150, 100, 0, 2 * Math.PI);
-						ctx.fill();
-						ctx.stroke();
+						// TODO: stroke and fill a circle
 					}
 				}
 			});
