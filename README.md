@@ -42,4 +42,6 @@ width | pixels | Specifies the width of the canvas Default value is 300
 
 ## Canvas Drawing Context
 
+- the simple breakdown of how to use the canvas
+
 ![Canvas Elements Drawing Context](/img/CanvasContext.PNG)
