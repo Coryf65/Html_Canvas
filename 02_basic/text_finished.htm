@@ -17,17 +17,31 @@
 						var ctx = theCanvas.getContext("2d");
 						if (ctx) {
 							var theString = "Drawing Text on a Canvas";
+							var startX = 20;
 
 							// TODO: draw the string with some font information
-
+							ctx.font = "25px Georgia";
+							ctx.fillText(theString, startX, 60);							
 
 							// TODO: draw the string with a fillStyle color
-
+							ctx.fillStyle="blue";
+							ctx.fillText(theString, startX, 100);
 
 							// TODO: draw the string with both a stroke and a fill with some opacity setting
+							ctx.font = "32px Ubuntu";
+							ctx.fillStyle="yellow";
+							ctx.strokeStyle="rgba(0,255,0,0.8)"
+							ctx.fillText(theString, startX, 160);
+							ctx.strokeText(theString, startX, 160);
 
+							// TODO: use measureText to draw a line under the text, draws an ubderline under the txt no matter the length
+							var textW = ctx.measureText(theString);
+							ctx.beginPath();
+							ctx.strokeStyle="black"
+							ctx.moveTo(startX, 170);
+							ctx.lineTo(startX+Math.round(textW.width), 170);
+							ctx.stroke();
 
-							// TODO: use measureText to draw a line under the text
 						}
 					}
 				}
