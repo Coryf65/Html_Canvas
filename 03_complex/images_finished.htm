@@ -15,25 +15,22 @@
 					var ctx = theCanvas.getContext("2d");
 					if (ctx) {
 						var srcImg = document.getElementById("img1");
-						// draw an image directly onto the canvas at the top left
-						ctx.drawImage(srcImg, 0, 0);
+						// TODO: draw an image directly onto the canvas at the top left
 
-						// draw the image scaled down onto the canvas
-						// ctx.drawImage(srcImg, 50, 50, 350, 150);
 
-						// draw just a portion of the source image onto the canvas
-						// ctx.drawImage(srcImg, 350, 200, 125, 100, 50, 50, 125, 100);
+						// TODO: draw the image scaled down onto the canvas
 
-						// draw the video onto the canvas. We need to request animation frames
+
+						// TODO: draw just a portion of the source image onto the canvas
+
+
+						// TODO: draw the video onto the canvas. We need to request animation frames
 						// in order to grab each frame from the video and paint it onto the canvas.
 						// function drawVidFrame() {
 						// 	var theCanvas = document.getElementById('Canvas1');
 						// 	var ctx = theCanvas.getContext("2d");
 						// 	var srcVid = document.getElementById("vid1");
-						// 	ctx.drawImage(srcVid, 0, 0, theCanvas.width, theCanvas.height);
-						// 	requestAnimationFrame(drawVidFrame);
 						// }
-						// requestAnimationFrame(drawVidFrame);
 					}
 				}
 			});
