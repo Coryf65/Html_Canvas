@@ -19,11 +19,21 @@
 						ctx.fillStyle = "red";
 						ctx.lineWidth = 5;
 
-						// TODO: stroke a quarter arc
+						// TODO: stroke a quarter arc, Math.PI is a half of a circle
+						ctx.beginPath();
+						ctx.arc(50,150,100,0,0.5*Math.PI);
+						ctx.stroke();
 
 						// TODO: stroke a half arc, going anti-clockwise
+						ctx.beginPath();
+						ctx.arc(300,150,100,0,Math.PI, true);
+						ctx.stroke();
 
 						// TODO: stroke and fill a circle
+						ctx.beginPath();
+						ctx.arc(550,150,100,0,2*Math.PI, true);
+						ctx.fill();
+						ctx.stroke();
 					}
 				}
 			});
